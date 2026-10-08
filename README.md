@@ -1,9 +1,10 @@
 # 위성영상 × AI 실습: 2025 의성 산불 피해 분석
 
-환경공간정보 활용 청년인재 역량 강화교육 · 2026.10.08 · 국립공주대학교 산림과학과
-경희대학교 김은빈 (ebkim@khu.ac.kr)
+- **교육**: 환경공간정보 활용 청년인재 역량 강화교육
+- **일시·장소**: 2026년 10월 8일 · 국립공주대학교 산림과학과
+- **강사**: 김은빈 (경희대학교, ebkim@khu.ac.kr)
 
-Sentinel-2 위성영상으로 2025년 의성 산불 피해를 지수(NDVI·NBR·dNBR)로 계산하고, 발화 후 영상 한 장으로 피해를 찾는 AI(MLP·U-Net)를 직접 학습해 본다. Google Colab과 Google Earth Engine에서 실행한다.
+Sentinel-2 위성영상으로 2025년 의성 산불 피해를 지수(NDVI·NBR·dNBR)로 계산하고, dNBR로 만든 정답으로 AI(MLP·U-Net)를 학습시켜 발화 후 영상 한 장만으로 피해 지역을 찾는다. Google Colab과 Google Earth Engine에서 실행한다.
 
 ## Colab에서 열기
 
